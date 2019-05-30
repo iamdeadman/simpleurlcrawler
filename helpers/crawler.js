@@ -7,7 +7,7 @@ const request = require('request');
 const cheerio = require('cheerio');
 const mongoose = require("mongoose");
 const _ = require("lodash");
-const QUEUE_NAME = "urlcrawler";
+const QUEUE_NAME = "webcrawler";
 
 function findIndexOfObjInArray(arr, attr, val) {
     for (var item = 0; item < arr.length; item++) {

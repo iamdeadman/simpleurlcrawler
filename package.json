@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./www"
+    "start": "node ./www",
+    "test": "./node_modules/.bin/mocha --timeout 30000 --ui bdd --reporter spec --colors tests --recursive"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
@@ -19,5 +20,10 @@
     "request": "^2.88.0",
     "rsmq": "^0.11.0",
     "rsmq-worker": "^0.5.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
   }
 }
