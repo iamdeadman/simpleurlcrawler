@@ -1,0 +1,23 @@
+{
+  "name": "webcrawler",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./www"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.3",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.5.11",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11",
+    "request": "^2.88.0",
+    "rsmq": "^0.11.0",
+    "rsmq-worker": "^0.5.2"
+  }
+}
