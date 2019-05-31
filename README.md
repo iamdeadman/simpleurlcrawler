@@ -1,5 +1,10 @@
 #Simple website url crawler
 
+Requirements: 
+  1. Node.Js,
+  2. MongoDB,
+  3. Redis
+
 App defaults:
   1. PORT : 3000,
   2. ROOT_URL : http://wiprodigital.com,
