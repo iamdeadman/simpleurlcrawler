@@ -1,13 +1,15 @@
-#Simple website links crawler
+#Simple website url crawler
 
 App defaults:
-  PORT : 3000,
-  ROOT_URL : http://wiprodigital.com,
-  MongoDB URL: mongodb://127.0.0.1/webcrawler,
-  Redis QUEUE_NAME: webcrawler
+  1. PORT : 3000,
+  2. ROOT_URL : http://wiprodigital.com,
+  3. MongoDB URL: mongodb://127.0.0.1/webcrawler,
+  4. Redis QUEUE_NAME: webcrawler
+
+To install and build: 
+npm install
 
 To run: 
-npm install
 npm start or node www
 
 To test: 
